@@ -32,7 +32,7 @@ function NewsLetter() {
       <AppBar position="static" >
         <Toolbar className={classes.toolbar}>
           <Stack direction="row" spacing={2}>
-            <Avatar alt="logo" src="https://cdn-icons.flaticon.com/png/512/4494/premium/4494500.png?token=exp=1643373760~hmac=2478f82eec95fcb2fb521e455889a876"/>
+            <Avatar alt="logo" src="https://stripe-images.s3.us-west-1.amazonaws.com/works-with/0bf92fa8419e3237a6fb6eac9b1c225099f96741"/>
           </Stack>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} align="center">
             Need more lead?
