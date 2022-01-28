@@ -6,6 +6,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton';
+import CancelIcon from '@mui/icons-material/Cancel';
 import { makeStyles } from '@material-ui/core/styles'
 
 
@@ -16,7 +18,10 @@ const useStyles = makeStyles({
   btn: {
     backgroundColor: "#F00",
     color: "#000",
-  }
+  },
+  cancelBtn: {
+    marginLeft: "30px"
+}
 })
 
 function NewsLetter() {
@@ -33,6 +38,11 @@ function NewsLetter() {
             Need more lead?
           </Typography>
           <Button color="inherit" >Subscribe</Button>
+          <Stack direction="row" spacing={1} className={classes.cancelBtn}>
+            <IconButton aria-label="fingerprint" color="inherit">
+              <CancelIcon />
+            </IconButton>
+          </Stack>
         </Toolbar>
       </AppBar>
     </Box>
