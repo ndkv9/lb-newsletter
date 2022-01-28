@@ -1,13 +1,10 @@
 import React from 'react'
-import Lead from './components/Lead'
+import NewsLetter from './components/NewsLetter'
 
 function App() {
   return (
    <div>
-     <h3>
-       Imma Lead
-       <Lead />
-     </h3>
+       <NewsLetter />
    </div>
   );
 }
