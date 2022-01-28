@@ -35,7 +35,7 @@ function NewsLetter() {
             <Avatar alt="logo" src="https://stripe-images.s3.us-west-1.amazonaws.com/works-with/0bf92fa8419e3237a6fb6eac9b1c225099f96741"/>
           </Stack>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }} align="center">
-            Need more lead?
+            Need more lead? Try our bots and forms
           </Typography>
           <Button color="inherit" >Subscribe</Button>
           <Stack direction="row" spacing={1} className={classes.cancelBtn}>
